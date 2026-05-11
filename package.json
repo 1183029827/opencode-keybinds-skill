@@ -1,18 +1,29 @@
 {
   "name": "opencode-keybinds-skill",
-  "version": "1.0.0",
-  "description": "OpenCode 官方规范的 Agent Skill，帮助用户快速配置实用的快捷键",
+  "version": "1.0.1",
+  "description": "OpenCode 快捷键增强技能，一键配置消息跳转、快速导航等实用快捷键，包含完整的Agent使用指引",
+  "main": "index.js",
   "keywords": [
     "opencode",
     "skill",
     "keybinds",
     "shortcut",
-    "productivity"
+    "productivity",
+    "agent"
   ],
   "author": "",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/1183029827/opencode-keybinds-skill.git"
+  },
+  "opencode": {
+    "skill": {
+      "name": "快捷键增强",
+      "description": "为OpenCode添加消息快速跳转、快速导航等实用快捷键，包含完整的Agent使用指引",
+      "version": "1.0.1",
+      "matches": ["快捷键", "keybind", "跳转", "导航", "keybinds"],
+      "instructions": "instructions.md"
+    }
   }
 }
